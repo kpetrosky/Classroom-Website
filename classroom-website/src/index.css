@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* nav {
+    /* Style your navigation links */
+  
+   */
+  aside {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+  
+  main {
+    flex: 3;
+    padding: 1rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+  }
+  
