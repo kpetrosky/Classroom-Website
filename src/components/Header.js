@@ -1,6 +1,6 @@
 /* Header.js */
 import React from 'react';
-import title from '../../src/images/title image.png';
+import title from '../../src/components/images/title image.png';
 
 function Header({ currentPage, handlePageChange }) {
   return (

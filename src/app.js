@@ -2,10 +2,10 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import Announcements from './components/Announcements';
-import Assignments from './components/Assignments';
-import Resources from './components/Resources';
-import Footer from './components/Footer';
+import Announcements from '../src/components/Announcements';
+import Assignments from '../src/components/Assignments';
+import Resources from '../src/components/Resources';
+import Footer from '../src/components/Footer';
 
 function App() {
   return (
