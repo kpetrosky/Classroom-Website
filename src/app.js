@@ -6,6 +6,7 @@ import Announcements from '../src/components/Announcements';
 import Assignments from '../src/components/Assignments';
 import Resources from '../src/components/Resources';
 import Footer from '../src/components/Footer';
+import navTabs from '../src/components/navTabs'
 
 function App() {
   return (
