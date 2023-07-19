@@ -6,9 +6,8 @@ const Announcements = () => {
     <section>
       <h2>Announcements</h2>
       <ul>
-        <li>Important announcement 1</li>
-        <li>Important announcement 2</li>
-        <li>Important announcement 3</li>
+        <li>Welcome to Technology Class</li>
+        <li>I look forward to working with you all!</li>
       </ul>
     </section>
   );

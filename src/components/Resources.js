@@ -35,7 +35,7 @@ const Resources = () => {
         </li>
         <li>
           <a
-            href="https://www.hp.com/us-en/shop/tech-takes/mouse-and-keyboarding-games"
+            href="https://www.roomrecess.com/games/DragonDrop/play.html"
             target="_blank"
             rel="noopener noreferrer"
           >
