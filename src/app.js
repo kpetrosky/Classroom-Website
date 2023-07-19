@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../src/components/App.js';
-import Header from './components/Header';
-import Announcements from '../src/components/Announcements';
-import Assignments from '../src/components/Assignments';
-import Resources from '../src/components/Resources';
-import Footer from '../src/components/Footer';
+import Header from './components/Header.js';
+import Announcements from './components/Announcements.js';
+import Assignments from './components/Assignments.js';
+import Resources from './components/Resources.js';
+import Footer from './components/Footer.js';
 // import NavTabs from './components/NavTabs'; // Import the NavTabs component
 
 function App() {
