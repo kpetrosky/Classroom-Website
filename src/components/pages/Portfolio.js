@@ -1,5 +1,13 @@
 import React from 'react';
 
+import project1 from '../../images/project1.png';
+import apiQuiz from '../../images/apiQuiz.png';
+
+import mvc from '../../images/mvc.png';
+import express from '../../images/express.png'
+import sql from '../../images/sql.png'
+import pwa from '../../images/pwa.png'
+
 
 export default function Portfolio() {
   const projects = [

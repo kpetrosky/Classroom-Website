@@ -1,6 +1,15 @@
+/* Header.js */
 import React from 'react';
+import title from '../../src/images/title-image.png'
+ // Replace 'logo.png' with your image file name and path
 
 function Header({ currentPage, handlePageChange }) {
+  return (
+    <header className="App-header">
+      <img src={title} className="App-logo" alt="Logo" />
+      {/* Rest of the header content */}
+    </header>
+  );
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
@@ -22,27 +31,28 @@ function Header({ currentPage, handlePageChange }) {
         >
           Portfolio
         </a>
+        <li className="nav-item">
+        <a
+          href="#websites"
+          onClick={() => handlePageChange('websites')}
+          className={currentPage === 'websites' ? 'nav-link active' : 'nav-link'}
+          style={{ fontSize: '32px' }} // Increase the font size to 24px
+        >
+          websites
+        </a>
+      </li>
       </li>
       <li className="nav-item">
         <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          href="#websites"
+          onClick={() => handlePageChange('websites')}
+          className={currentPage === 'websites' ? 'nav-link active' : 'nav-link'}
           style={{ fontSize: '32px' }} // Increase the font size to 24px
         >
-          Contact
+          websites
         </a>
       </li>
-      <li className="nav-item">
-        <a
-          href="https://drive.google.com/file/d/1HvQzccnYfr0brq3yfYQ7fjuTPDduCqAc/view?usp=drive_link"
-          target="_blank"
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-          style={{ fontSize: '32px' }} // Increase the font size to 24px
-        >
-          Resume
-        </a>
-      </li>
+     
     </ul>
   );
 }

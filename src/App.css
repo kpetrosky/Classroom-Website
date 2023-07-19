@@ -1,0 +1,23 @@
+/* styles.css */
+:root {
+  --tomato: #ef6351ff;
+  --salmon: #f38375ff;
+  --melon: #f7a399ff;
+  --melon-2: #fbc3bcff;
+  --misty-rose: #ffe3e0ff;
+  --turquoise: #5dd9c1ff;
+--aquamarine: #acfcd9ff;
+--african-violet: #b084ccff;
+--ultra-violet: #665687ff;
+--russian-violet: #190933ff;
+--burnt-sienna: #de6b48ff;
+--buff: #e5b181ff;
+--melon: #f4b9b2ff;
+--tea-green: #daedbdff;
+--sky-blue: #7dbbc3ff;
+};
+
+/* Rest of your CSS styles for the components */
+body {
+ background-color: #de6b48ff
+}
