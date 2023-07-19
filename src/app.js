@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+import '../src/components/App.js';
 import Header from './components/Header';
 import Announcements from '../src/components/Announcements';
 import Assignments from '../src/components/Assignments';

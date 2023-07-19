@@ -160,36 +160,3 @@ header p {
     font-size: 16px;
   }
 }
-
-.header-container {
-  /* Add your styles for the header container here */
-}
-
-.nav-tabs {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 20px 0; /* Add top and bottom margin to move the nav tabs down */
-}
-
-.nav-item {
-  margin-right: 10px; /* Adjust spacing between buttons as needed */
-}
-
-/* Optional: Adjust styles for active links */
-.nav-link.active {
-  /* Add your styles for active links */
-}
-
-.sub-tabs {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-top: 10px; /* Optional: Add some spacing between the main tabs and sub-tabs */
-}
-
-/* Optional: Adjust styles for active sub-links */
-.sub-tabs .nav-link.active {
-  /* Add your styles for active sub-links */
-}
