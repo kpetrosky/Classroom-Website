@@ -1,12 +1,11 @@
-// Resources.js
 import React from 'react';
 
-const Resources = () => {
+function KindergartenResources() {
   return (
-    <section>
-      <h2>Resources</h2>
+    <div>
+      <h1>Kindergarten Resources</h1>
       <ul>
-        <li>
+      <li>
           <a
             href="https://readyclassroomcentral.com/"
             target="_blank"
@@ -43,8 +42,8 @@ const Resources = () => {
           </a>
         </li>
       </ul>
-    </section>
+    </div>
   );
-};
+}
 
-export default Resources;
+export default KindergartenResources;

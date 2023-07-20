@@ -1,16 +1,18 @@
-// Announcements.js
 import React from 'react';
 
-const Announcements = () => {
+function Announcements() {
   return (
-    <section>
-      <h2>Announcements</h2>
+    <div>
+      <h1>Announcements</h1>
+      <ul>
       <ul>
         <li>Welcome to Technology Class</li>
         <li>I look forward to working with you all!</li>
       </ul>
-    </section>
+        {/* Add more announcements as needed */}
+      </ul>
+    </div>
   );
-};
+}
 
 export default Announcements;

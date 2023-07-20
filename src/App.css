@@ -6,48 +6,50 @@
   --melon-2: #fbc3bcff;
   --misty-rose: #ffe3e0ff;
   --turquoise: #5dd9c1ff;
---aquamarine: #acfcd9ff;
---african-violet: #b084ccff;
---ultra-violet: #665687ff;
---russian-violet: #190933ff;
---burnt-sienna: #de6b48ff;
---buff: #e5b181ff;
---melon: #f4b9b2ff;
---tea-green: #daedbdff;
---sky-blue: #7dbbc3ff;
---black: #080705ff;
---licorice: #362023ff;
---tyrian-purple: #700548ff;
---glaucous: #7272abff;
---vista-blue: #7899d4ff;
-};
+  --aquamarine: #acfcd9ff;
+  --african-violet: #b084ccff;
+  --ultra-violet: #665687ff;
+  --russian-violet: #190933ff;
+  --burnt-sienna: #de6b48ff;
+  --buff: #e5b181ff;
+  --melon: #f4b9b2ff;
+  --tea-green: #daedbdff;
+  --sky-blue: #7dbbc3ff;
+  --black: #080705ff;
+  --licorice: #362023ff;
+  --tyrian-purple: #700548ff;
+  --glaucous: #7272abff;
+  --vista-blue: #7899d4ff;
+}
 
-/* Rest of your CSS styles for the components */
 /* app.css */
-
-/* Body styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-color: black;
 }
 
 /* Header styles */
 header {
-  background-color: #b084ccff;
-  color: #fff;
+  background-color: #800000;
+  color: black;
   padding: 1rem;
   text-align: center;
 }
 
-h1 {
-  margin: 100;
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin: 0;
 }
 
 /* Navigation styles */
 nav {
-  background-color: #0056b3;
   padding: 0.5rem;
 }
 
@@ -64,7 +66,7 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: black;
   text-decoration: none;
   font-size: 16px;
   padding: 0.5rem 1rem;
@@ -72,8 +74,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #0056b3;
-  color: #fff;
+  color: black;
   opacity: 0.8;
 }
 
@@ -99,56 +100,19 @@ nav a:hover {
 /* Buttons styles */
 .button {
   display: inline-block;
-  background-color: #007bff;
-  color: #fff;
+  color: black;
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.button:hover {
-  background-color: #0056b3;
-}
-
 /* Footer styles */
 footer {
-  background-color: #b084ccff;
-  color: #fff;
+  background-color: #800000;
+  color: black;
   padding: 1rem;
   text-align: center;
-}
-
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  header h1 {
-    font-size: 24px;
-  }
-  nav {
-    display: block;
-    text-align: center;
-  }
-  nav li {
-    margin: 0.5rem 0;
-  }
-}
-/* Header styles */
-header {
-  background-color: #b084ccff;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-}
-
-/* Header text styles */
-header h1 {
-  font-size: 32px;
-  margin: 0;
-}
-
-header p {
-  font-size: 18px;
-  margin: 0;
 }
 
 /* Responsive styles */
@@ -158,5 +122,12 @@ header p {
   }
   header p {
     font-size: 16px;
+  }
+  nav {
+    display: block;
+    text-align: center;
+  }
+  nav li {
+    margin: 0.5rem 0;
   }
 }
