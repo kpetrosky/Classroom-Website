@@ -1,10 +1,12 @@
 import React from 'react';
-import CurriculumPlanner from "./CurriculumPlanner";
+// import CurriculumPlanner from './CurriculumPlanner';
+// import Lion from '../../images/Lion.png';
+
 
 const Header = ({ currentPage, handlePageChange }) => {
   return (
     <header className="App-header">
-      <img src={logo} alt="Logo" /> {/* Add the image with the appropriate path */}
+     
       <nav>
         <ul className="nav nav-tabs">
           <li className="nav-item">
@@ -44,7 +46,7 @@ const Header = ({ currentPage, handlePageChange }) => {
             </a>
           </li>
           {/* New navtab for Curriculum/Year Planner */}
-           <li className="nav-item">
+          <li className="nav-item">
             <a
               href="#curriculum"
               onClick={() => handlePageChange('CurriculumPlanner')}
@@ -53,7 +55,6 @@ const Header = ({ currentPage, handlePageChange }) => {
               🌞 Curriculum/Year Planner
             </a>
           </li>
-
         </ul>
       </nav>
     </header>
